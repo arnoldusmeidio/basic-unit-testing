@@ -77,10 +77,10 @@ describe("evenOdd", () => {
   });
 
   it("should return odd when input modulo 2 is 1", () => {
-    expect(evenOdd(5)).toBe("even");
+    expect(evenOdd(5)).toBe("odd");
   });
 
   it("should throw error if the input is not a number", () => {
-    expect(() => evenOdd("sepuluh")).toThrowError("Input must be integer!");
+    expect(() => evenOdd("sepuluh")).toThrowError("Input must be number!");
   });
 });
