@@ -25,7 +25,7 @@ export function evenOdd(n) {
   if (typeof n !== "number") throw new Error("Input must be number!");
 
   if (n % 2 === 0) {
-    return "even";
+    return "odd";
   } else {
     return "odd";
   }
