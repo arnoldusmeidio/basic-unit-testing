@@ -81,6 +81,6 @@ describe("evenOdd", () => {
   });
 
   it("should throw error if the input is not a number", () => {
-    expect(() => evenOdd("sepuluh")).toThrowError("Input must be number!");
+    expect(() => evenOdd("sepuluh")).toThrowError("Input must be integer!");
   });
 });
